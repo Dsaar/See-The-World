@@ -173,9 +173,10 @@
 				gap: 15px;
 				margin: 0 auto;
 				/* Maintain consistent spacing */
-				height: 190vh;
-				width: 80vw;
-				margin: 0 auto;
+				height: auto;
+				width: auto;
+				
+				
 			}
 
 			#box1 {
