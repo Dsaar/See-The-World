@@ -10,15 +10,16 @@
 
 		body {
 			background-color: #E5EEFF;
-			min-height: 200vh;
+			min-height: 100vh;
+			min-width: 100vw;
 			display: flex;
 			align-items: center;
 			justify-content: center;
 		}
 
 		.container {
-			width: 40vw;
-			height: 180vh;
+			width: 80vw;
+			height: 100vh;
 			margin: 0 auto;
 			margin-left: 200px;
 			display: grid;
@@ -165,6 +166,11 @@
 
 		/* Media Queries for Two-Column Layout */
 		@media (max-width: 768px) {
+			body {
+				height: 90vh;
+				width: 90vw;
+			}
+
 			.container {
 				grid-template-columns: repeat(1fr);
 				/* Two equal-width columns */
@@ -173,11 +179,11 @@
 				gap: 15px;
 				margin: 0 auto;
 				/* Maintain consistent spacing */
-				height: auto;
-				width: auto;
+				height: 90vh;
+				max-width: 80vw;
 				margin-left: 0;
-				
-				
+
+
 			}
 
 			#box1 {
@@ -222,7 +228,7 @@
 
 
 			.item img {
-				width: auto;
+				width: 80vw;
 				/* Adjust image size within its container */
 				height: auto;
 				/* Maintain image aspect ratio */
@@ -258,7 +264,7 @@
 			input,
 			textarea,
 			button {
-				width: 90%;
+				width: 80%;
 				/* Form elements occupy full width */
 			}
 		}

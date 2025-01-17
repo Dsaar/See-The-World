@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Travel Experience</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		body {
+			background-color: #e6f0ff;
+			font-family: Arial, sans-serif;
+		}
+
+		.text-box {
+			background-color: #001245;
+			color: #fff;
+			text-align: center;
+			padding: 30px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.text-box h1 {
+			font-size: 2rem;
+			margin-bottom: 10px;
+		}
+
+		.form-section {
+			background-color: #800080;
+			color: #fff;
+			padding: 20px;
+			border-radius: 8px;
+			margin-top: 20px;
+		}
+
+		.form-section h3 {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		.btn-submit {
+			background-color: #4bd3ff;
+			color: #fff;
+			border: none;
+		}
+
+		.grid-image {
+			object-fit: cover;
+			width: 100%;
+			height: 200px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<!-- Row for Images and Text -->
+		<div class="row g-3 mt-4">
+			<!-- Image Grid -->
+			<div class="col-lg-9">
+				<div class="row g-2">
+					<!-- Images -->
+					<div class="col-5"><img src="/Projects/See The World/Images/Lake.png" alt="Image 1" class="grid-image"></div>
+					<div class="col-4"><img src="/Projects/See The World/Images/Buddah.png" alt="Image 2" class="grid-image"></div>
+					<div class="col-4"><img src="/Projects/See The World/Images/Beach.png" alt="Image 3" class="grid-image"></div>
+					<div class="col-4"><img src="/Projects/See The World/Images/Bull.png" alt="Image 4" class="grid-image"></div>
+					<div class="col-4"><img src="/Projects/See The World/Images/View.png" alt="Image 5" class="grid-image"></div>
+					<div class="col-4"><img src="/Projects/See The World/Images/Fishing.png" alt="Image 6" class="grid-image"></div>
+					<div class="col-4"><img src="/Projects/See The World/Images/Sunset.png" alt="Image 7" class="grid-image"></div>
+					<div class="col-4"><img src="image8.jpg" alt="Image 8" class="grid-image"></div>
+					<div class="col-4"><img src="image9.jpg" alt="Image 9" class="grid-image"></div>
+				</div>
+			</div>
+
+			<!-- Text Box -->
+			<div class="col-lg-3 text-box">
+				<div>
+					<h1>לגלות את העולם</h1>
+					<p>לכם יש סיפור בקצרה לספר, הוא כולל מקומות ומסעות משמעותיים.<br>השאירו מסלול ותשובה כאן</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Form Section -->
+		<div class="row justify-content-center">
+			<div class="col-lg-6 form-section">
+				<h3>ספרו לנו על החוויה שלכם</h3>
+				<form>
+					<div class="mb-3">
+						<label for="name" class="form-label">שם מלא</label>
+						<input type="text" class="form-control" id="name" placeholder="שם">
+					</div>
+					<div class="mb-3">
+						<label for="email" class="form-label">דואל</label>
+						<input type="email" class="form-control" id="email" placeholder="כתובת דוא" ל">
+					</div>
+					<div class="mb-3">
+						<label for="experience" class="form-label">החוויה שלכם</label>
+						<textarea class="form-control" id="experience" rows="3" placeholder="כתבו כאן..."></textarea>
+					</div>
+					<div class="text-center">
+						<button type="submit" class="btn btn-submit">שליחה</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
