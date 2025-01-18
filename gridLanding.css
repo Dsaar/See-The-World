@@ -166,7 +166,7 @@
 		}
 
 		/* Media Queries for Two-Column Layout */
-		@media (max-width: 400px) {
+		@media (min-width: 400px) {
 			body {
 				height: 80vh;
 				width: 80vw;
